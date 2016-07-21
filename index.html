@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class = "form">
+    <form>
+      What is your name? <br>
+      <input type = "text" class = "name" placeholder = "Enter Your Name Here"><br>
+      What is your favorite color? (Select the color using the colors box below.)  <br>
+      <input type = "color" class = "color"> <br>
+      Now to the exciting stuff. If you had to only eat one thing for the rest of your life, what would it be? <br>
+      <input type = "radio" name = "food" value ="Pizza">Pizza
+      <input type = "radio" name = "food" value = "Tacos">Tacos
+      <input type = "radio" name = "food" value = "Burgers"> Burgers <br>
+      <input type = "button" class = "submitButton" value = "Click here to tell me all about yourself"><br>
+    </form>
+  </div>
+    <div>
+      <span id = "output"></span>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src = "form.js"></script>
+  </body>
+</html>
